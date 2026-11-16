@@ -2,6 +2,8 @@
 
 Ein Lotto-Spiel für die Konsole, geschrieben in Python. Entstanden als Projekt in der Münchner Coding Akademy.
 
+Die Spiellogik habe ich selbst geschrieben, ohne KI, im Rahmen der Python-Weiterbildung mit Schwerpunkt Clean Code.
+
 ## Funktionen
 
 - 1 bis 12 Tippfelder mit je 6 eindeutigen Zahlen (1-49)
