@@ -1,18 +1,9 @@
-# Programmiere ein Lottospiel
-# ERSTE VERSION
-# 1: Spieler gibt 6 eindeutige Zahlen zwischen 1 und 49 ein (speicher in Liste Spieler)
-# 2: Computer generiert 6 Zahlen ziwshcen 1 und 49 (speichere in  Liste Computer)
-# 3: Vergleiche beide Listen
-# ZWEITE VERSION
-# 1: Spieler kann 1 bis 12 Felder je 6 Zahlen ausfüllen!
-# 2: Vergleiche die geschachtelten Liste mit der Lottoziehung Liste vom Computer
-# DRITTE VERSION
-# 1: Der Spieler gibt noch eine Superzahl zwischen 0 und 9 ein 
-# 2: Computer generiert ebenfalls eine Superzahl zwischen 0 und 9 
-# 3: Vergleiche die Superzahl zusätzlich zu den 6 Zahlen (Ziehung + Superzahl)
-# VIERTE VERSION
-# 1: Der Verkäufer fragt, ob wir ein oder mehrere Felder automatisch ausgefüllt haben wollen!
+﻿"""Lottospiel für die Konsole.
 
+Der Spieler tippt 1 bis 12 Felder mit je 6 Zahlen (1-49), manuell oder
+automatisch, und wählt eine Superzahl (0-9). Danach zieht der Computer
+die Gewinnzahlen und wertet alle Felder aus.
+"""
 import random
 
 
@@ -157,4 +148,6 @@ def start():
     vergleiche_super_zahl(gezogene_super_zahl, getippte_super_zahl)
 
 
-start()
+if __name__ == "__main__":
+    start()
+
